@@ -1,0 +1,118 @@
+ /* Estilos gerais */
+ @charset "UTF-8";
+ @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&display=swap");
+
+
+/* Logo */
+.logo {
+    float: left; /* Alinha o elemento à esquerda */
+    margin: 0px 20px; /* Espaçamento do logo em relação ao menu */
+    background-color: #000000;
+}
+
+.logo img {
+    max-width: 200px; /* Define um tamanho máximo para o logo */
+    height: auto; /* Mantém a proporção da imagem */
+}  
+.titulo{
+    color: #f0bc4d;
+    text-align: center;
+    margin: 10;
+    padding: 0;
+    background-color: #000000;
+    
+}
+ body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #f0bc4d;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #f0bc4d;
+    margin: 15px 0;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Navegação */
+nav {
+    background-color: #000000;
+    padding: 20px;
+    margin: 100px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: #f0bc4d;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+}
+
+nav li a:hover {
+    background-color: #000000;
+}
+
+/* Sobre a Confeitaria */
+#sobre {
+    padding: 30px;
+    background-color: #fff;
+}
+
+/* Menu da Confeitaria */
+#menu {
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Contato */
+#contato {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
