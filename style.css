@@ -204,6 +204,25 @@ nav li a:hover {
     background-color: #fff;
 }
 
+/* Estilos do botão de voltar ao início */
+
+#back-to-top {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #f0bc4d;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #f0bc4d;
+    
+}
+
+#back-to-top:hover {
+    background-color: #000000;
+}
+
 /* Rodapé */
 footer {
     background-color: #000000;
