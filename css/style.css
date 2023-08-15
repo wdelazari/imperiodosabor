@@ -102,7 +102,7 @@ body {
 	font-weight: 400;
 	letter-spacing: .075em;
 	color: #777777;
-	background-color: #ffffff;
+	background-color: #000000;
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
@@ -286,6 +286,8 @@ mark,
 }
 
 .big {
+	background-color: #2c343b;
+    opacity: 60%;
 	font-size: 18px;
 	line-height: 1.55556;
 }
@@ -3682,6 +3684,7 @@ p + .quote-classic {
 }
 
 .footer-modern-line {
+	text-align: center;
 	padding: 50px 0;
 }
 
@@ -6516,7 +6519,7 @@ html:not(.lt-ie10) .not-animated {
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
-	background: #ffffff;
+	background: #000000;
 	transition: .3s all ease;
 }
 
@@ -9750,6 +9753,8 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .swiper-slider-3 .swiper-title {
+	background-color: #2c343b;
+	opacity: 90%;
 	font-weight: 400;
 }
 
@@ -15200,3 +15205,4 @@ disabled look for disabled choices in the results dropdown
 		padding-right: 70px;
 	}
 }
+
